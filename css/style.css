@@ -8,9 +8,15 @@ body{
 }
 
 /* header secton  */
-
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 header{
   background: #FFF8F3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .navigation{
   width: 1250px;
@@ -18,7 +24,7 @@ header{
   margin: auto;
   display: flex;
   align-items: center;
-  padding-top: 50px;
+  padding: 50px 0;
 }
 .logo{
   width: 25%;
@@ -26,9 +32,7 @@ header{
 .logo h1{
   color:#181818;
  font-size: 45px;
- font-style: normal;
  font-weight: 800;
- line-height: normal;
 }
 .logo .logo_design{
   color:#FD6E0A;
@@ -50,22 +54,121 @@ header{
   text-decoration: none;
   color: #474747;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .button{
   width: 20%;
   text-align: right;
 }
-button{
+.btn-praymary{
   color: #FFF;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
-   background-color: #fff;
   border-radius: 5px;
   background: #FD6E0A;
   padding: 18px 36px;
+  border: none;
+  margin-right: 15px;
 }
+.button-secondary{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 18px 36px;
+  border: none;
+  color: #FD6E0A;
+  border:1px solid #FD6E0A;
+}
+.header_content{
+  padding: 0 50px 0 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_discription{
+  width: 550px;
+}
+.header_discription h3{
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  padding: 20px 0;
+
+}
+.header_discription h1{
+  color: #181818;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 85px;
+  font-weight: 700;
+}
+.header_discription p{
+  padding: 20px 0;
+  color:#757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.profile-picture{
+  width: 584px;
+  height: 676px;
+}
+
+/* about section  */
+
+.about-section{
+  border-radius: 10px;
+  background: #FFF8F3;
+  padding: 130px 156px;
+  margin: 130px  auto;
+
+}
+
+.discription{
+  text-align: center;
+
+}
+.discription p{
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 20px 0;
+}
+.about-discription h1{
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.about-services{
+  border-radius: 10px;
+  padding: 20px 156px;
+}
+.services{
+  display: flex;
+  gap: 30px;
+}
+.service{
+  padding: 30px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+.service h2{
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 30px 0;
+}
+.service p{
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  
+}
+
