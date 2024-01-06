@@ -6,6 +6,12 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
 
 /* header secton  */
 .container{
@@ -17,6 +23,12 @@ header{
   background-image: url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
+  position: relative;
+}
+.developer_logo{
+  position: absolute;
+  top: 38px;
+  left: 28px;
 }
 .navigation{
   width: 1250px;
@@ -60,7 +72,7 @@ header{
   width: 20%;
   text-align: right;
 }
-.btn-praymary{
+.btn-primary{
   color: #FFF;
   font-size: 20px;
   font-weight: 700;
@@ -188,4 +200,109 @@ color:#474747;
 font-size: 20px;
 font-weight: 700;
 line-height: 30px;
+}
+/* resume section  */
+
+.resumi_section{
+ padding: 0 0 230px;
+}
+.resume_items{ 
+display: flex;
+gap: 70px;
+}
+.left_item{ }
+.Right_item{}
+
+
+.item{
+
+}
+.left_item h2,.Right_item,{
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.item h3{
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 30px 0;;
+}
+.item h4{
+  color:  #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.item p{
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; 
+  margin: 10px 0 30px;
+}
+.resumi_section .discription{
+  margin: 130px 0;
+}
+
+/* footer section  */
+.footer_section{ 
+  padding: 130px 0;
+  max-width:1600px;
+  height: 780px;
+  flex-shrink: 0;
+  background: #FFF8F3;
+}
+.footer_item{
+  display: flex;
+  gap: 116px;
+}
+.footer_item h2{
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.footer_item p{
+  color:#474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 20px 0;
+  width: 552px;
+}
+.footer_item ul, ul li{
+  display: flex;
+  gap: 10px;
+}
+.footer_left{
+
+}
+
+.footer_right .contuct_form input{
+  padding: 18px 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin:30px 0;
+  border-radius: 5px;
+  background: var(--White-Color, #FFF);
+  border: none;
+
+}
+::placeholder{
+  padding-left: 30px;
+}
+textarea{
+  padding: 30px;
+  min-height: 150px;
+  width: 100%;
+  border: none;
+}
+.contuct_form .btn-submit{
+  margin-top:24px;
+}
+.button_cv{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }
