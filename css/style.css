@@ -273,9 +273,13 @@ gap: 70px;
 }
 .footer_item ul, ul li{
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
-.footer_left{
+.fa-brands{
+  color: #FD6E0A;
+  font-size: 18px;
+}
+.footer_item ul, ul li .footer_left{
 
 }
 
